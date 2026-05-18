@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Pagina Personal | Calculadora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <span class="brand">Mi Web Personal</span>
+      <div class="nav-links">
+        <a href="#sobre-mi">Sobre mi</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#calculadora">Calculadora</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <div class="hero-text">
+        <p class="eyebrow">Estudiante de desarrollo web</p>
+        <h1>Hola, soy <span>JHOE CADENA</span></h1>
+        <p class="intro">
+          Estoy aprendiendo HTML, CSS y JavaScript. Esta pagina fue creada como
+          parte de una tarea academica para presentar mi informacion personal y
+          una calculadora con operaciones basicas.
+        </p>
+        <a class="button-primary" href="#calculadora">Probar calculadora</a>
+      </div>
+
+      <article class="profile-card">
+        <h2>Perfil rapido</h2>
+        <ul>
+          <li><strong>Nombre:</strong> Jhoe Cadena</li>
+          <li><strong>Ciudad:</strong> Cayambe, Ecuador</li>
+          <li><strong>Carrera:</strong> Desarrollo de Software</li>
+          <li><strong>Meta:</strong> Convertirme en un desarrollador e ingeniero de software capaz de crear sistemas empresariales completos, seguros y escalables que optimicen procesos reales y generen impacto en las organizaciones.</li>
+        </ul>
+      </article>
+    </section>
+  </header>
+
+  <main>
+    <section class="info-section" id="sobre-mi">
+      <div class="section-title">
+        <p class="eyebrow">Sobre mi</p>
+        <h2>Un poco sobre mi recorrido</h2>
+      </div>
+      <div class="info-grid">
+        <article class="card">
+          <h3>Quien soy</h3>
+          <p>
+            Soy una persona apasionada por la tecnologia, el desarrollo de
+            software y la creacion de soluciones empresariales. Me caracterizo
+            por ser responsable, autodidacta y orientado a resolver problemas
+            reales mediante programacion, automatizacion y analisis de datos.
+            Actualmente trabajo en proyectos relacionados con sistemas ERP,
+            infraestructura tecnologica, servidores y desarrollo web,
+            fortaleciendo constantemente mis conocimientos en ingenieria de
+            software y seguridad informatica.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Intereses</h3>
+          <p>
+            Disfruto desarrollar aplicaciones web y sistemas empresariales,
+            administrar servidores Linux, trabajar con bases de datos y
+            disenar soluciones que optimicen procesos dentro de las
+            organizaciones. Me interesa la ciberseguridad, la automatizacion,
+            los dashboards con KPIs y la integracion de tecnologias modernas
+            para mejorar la productividad. Tambien me gusta aprender nuevas
+            herramientas, explorar infraestructura tecnologica y seguir
+            creciendo profesionalmente en el area de sistemas.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Objetivo</h3>
+          <p>
+            Mi objetivo es convertirme en un ingeniero de software y
+            arquitecto de soluciones tecnologicas capaz de desarrollar
+            sistemas seguros, escalables e innovadores que generen impacto
+            real en las empresas. Busco especializarme en desarrollo full
+            stack, infraestructura, automatizacion y analisis de datos,
+            creando plataformas modernas que optimicen procesos y apoyen la
+            toma de decisiones empresariales.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills-section" id="habilidades">
+      <div class="section-title">
+        <p class="eyebrow">Habilidades</p>
+        <h2>Tecnologias que estoy practicando</h2>
+      </div>
+      <div class="skills-wrapper">
+        <div class="skill-pill">HTML</div>
+        <div class="skill-pill">CSS</div>
+        <div class="skill-pill">JavaScript</div>
+        <div class="skill-pill">Git y GitHub</div>
+        <div class="skill-pill">Trabajo en equipo</div>
+        <div class="skill-pill">Resolucion de problemas</div>
+      </div>
+    </section>
+
+    <section class="calculator-section" id="calculadora">
+      <div class="section-title">
+        <p class="eyebrow">Proyecto practico</p>
+        <h2>Calculadora de funciones basicas</h2>
+      </div>
+
+      <div class="calculator-layout">
+        <article class="calculator-info card">
+          <h3>Como funciona</h3>
+          <p>
+            Esta calculadora fue simplificada para trabajar solo con lo
+            esencial: ingreso de numeros, limpieza de pantalla y operaciones
+            basicas.
+          </p>
+          <ul class="calculator-list">
+            <li>Suma</li>
+            <li>Resta</li>
+            <li>Multiplicacion</li>
+            <li>Division</li>
+            <li>Borrar entrada, limpiar todo y retroceso</li>
+          </ul>
+        </article>
+
+        <article class="calculator-shell">
+          <div class="calculator-app" role="application" aria-label="Calculadora basica">
+            <div class="calculator-topbar">
+              <div>
+                <p class="calculator-mode">Modo basico</p>
+                <h3>Calculadora simple</h3>
+              </div>
+              <p class="keyboard-hint">Tambien funciona con el teclado.</p>
+            </div>
+
+            <div class="display-panel" aria-live="polite">
+              <p class="display-expression" id="displayExpression">Calculadora basica</p>
+              <p class="display-value" id="displayValue">0</p>
+            </div>
+
+            <p class="calculator-status" id="calculatorStatus">Lista para calcular.</p>
+
+            <div class="calculator-main calculator-main--basic">
+              <div class="keys-grid keys-grid--basic">
+                <button class="calc-key calc-key--function" type="button" data-action="clear-entry">CE</button>
+                <button class="calc-key calc-key--function" type="button" data-action="clear-all">C</button>
+                <button class="calc-key calc-key--function" type="button" data-action="backspace" aria-label="Borrar ultimo digito">&larr;</button>
+                <button class="calc-key calc-key--operator" type="button" data-action="operator" data-operator="divide">&divide;</button>
+
+                <button class="calc-key" type="button" data-action="digit" data-value="7">7</button>
+                <button class="calc-key" type="button" data-action="digit" data-value="8">8</button>
+                <button class="calc-key" type="button" data-action="digit" data-value="9">9</button>
+                <button class="calc-key calc-key--operator" type="button" data-action="operator" data-operator="multiply">&times;</button>
+
+                <button class="calc-key" type="button" data-action="digit" data-value="4">4</button>
+                <button class="calc-key" type="button" data-action="digit" data-value="5">5</button>
+                <button class="calc-key" type="button" data-action="digit" data-value="6">6</button>
+                <button class="calc-key calc-key--operator" type="button" data-action="operator" data-operator="subtract">&minus;</button>
+
+                <button class="calc-key" type="button" data-action="digit" data-value="1">1</button>
+                <button class="calc-key" type="button" data-action="digit" data-value="2">2</button>
+                <button class="calc-key" type="button" data-action="digit" data-value="3">3</button>
+                <button class="calc-key calc-key--operator" type="button" data-action="operator" data-operator="add">+</button>
+
+                <button class="calc-key calc-key--zero" type="button" data-action="digit" data-value="0">0</button>
+                <button class="calc-key" type="button" data-action="decimal">,</button>
+                <button class="calc-key calc-key--equal" type="button" data-action="equals">=</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes personalizar esta seccion con tu correo, redes o portafolio.</p>
+    <p><strong>Email:</strong> cadenaleonel9@gmail.com</p>
+    <p class="footer-copy">Creado con HTML, CSS y JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
