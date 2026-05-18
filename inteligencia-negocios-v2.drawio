@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2026-05-17T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="intel-negocios-v2" name="Página-1">
+    <mxGraphModel dx="1480" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="960" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#eef4fb;strokeColor=#c8d8eb;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="350" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#f4f0ff;strokeColor=#d7c9fb;" vertex="1" parent="1">
+          <mxGeometry x="465" y="130" width="350" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#eef9f2;strokeColor=#c8e8d3;" vertex="1" parent="1">
+          <mxGeometry x="890" y="130" width="350" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Inteligencia de Negocios&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=22;fillColor=#123c73;gradientColor=#2d6fbe;strokeColor=#0f2c51;fontColor=#ffffff;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="35" width="600" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Entradas&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#19a7a8;gradientColor=#53d9da;strokeColor=#0f7374;fontColor=#ffffff;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="155" width="260" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Proceso&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#7c57d9;gradientColor=#a98bff;strokeColor=#5d3db0;fontColor=#ffffff;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="155" width="260" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Resultados&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#24945a;gradientColor=#61ce8e;strokeColor=#1a6d42;fontColor=#ffffff;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="155" width="260" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Datos&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;• Fuentes internas (ERP, CRM)&lt;br&gt;• Fuentes externas (mercados, competidores)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#5fa9c6;fontColor=#17324d;align=left;spacingLeft=18;spacingTop=14;fontSize=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="245" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Tecnolog&amp;iacute;a&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;• Herramientas de BI (Tableau, Power BI)&lt;br&gt;• Bases de datos (SQL, NoSQL)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#5fa9c6;fontColor=#17324d;align=left;spacingLeft=18;spacingTop=14;fontSize=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="430" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;An&amp;aacute;lisis&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;• Integraci&amp;oacute;n y lectura de datos&lt;br&gt;• Uso de herramientas de BI&lt;br&gt;• Construcci&amp;oacute;n de indicadores clave" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#8f71e0;fontColor=#2d2451;align=left;spacingLeft=18;spacingTop=14;fontSize=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="270" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Objetivos&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;• Mejorar la toma de decisiones&lt;br&gt;• Aumentar la eficiencia operativa&lt;br&gt;• Identificar oportunidades de mercado" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#8f71e0;fontColor=#2d2451;align=left;spacingLeft=18;spacingTop=14;fontSize=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="485" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Beneficios&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;• Visibilidad de datos en tiempo real&lt;br&gt;• Personalizaci&amp;oacute;n de estrategias&lt;br&gt;• Ventaja competitiva" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#67b786;fontColor=#1f4b31;align=left;spacingLeft=18;spacingTop=14;fontSize=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="235" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Aplicaciones&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;• An&amp;aacute;lisis de ventas&lt;br&gt;• Gesti&amp;oacute;n de inventarios&lt;br&gt;• Evaluaci&amp;oacute;n de rendimiento" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#67b786;fontColor=#1f4b31;align=left;spacingLeft=18;spacingTop=14;fontSize=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="430" width="260" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Desaf&amp;iacute;os&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;• Calidad de los datos&lt;br&gt;• Resistencia al cambio organizacional&lt;br&gt;• Costos de implementaci&amp;oacute;n" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#67b786;fontColor=#1f4b31;align=left;spacingLeft=18;spacingTop=14;fontSize=15;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="620" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Mapa conceptual reorganizado por Jhoe Cadena" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#ffffff;strokeColor=#b8c7d8;fontColor=#334455;align=center;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="865" y="820" width="375" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=3;strokeColor=#55a5c2;" edge="1" parent="1" source="9" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=3;strokeColor=#55a5c2;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=3;strokeColor=#8b73e0;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=3;strokeColor=#57b47b;" edge="1" parent="1" source="12" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=3;strokeColor=#57b47b;" edge="1" parent="1" source="12" target="14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeWidth=3;strokeColor=#57b47b;dashed=1;" edge="1" parent="1" source="12" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Flujo de valor BI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#6d88a3;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="95" width="230" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
